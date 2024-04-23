@@ -32,10 +32,10 @@
   --btn-txt-mob: 14px;
 
   /* font-sizes desktop */
-  --header-txt-desktop: 34px;
-  --subheader-txt-desktop: 24px;
-  --bodycopy-desktop: 26px;
-  --btn-txt-desktop: 14px;
+  --header-txt-desktop: 30px;
+  --subheader-txt-desktop: 20px;
+  --bodycopy-desktop: 20px;
+  --btn-txt-desktop: 15px;
 }
 
 /* ---------------------------- Global Styling ---------------------------- */
@@ -119,6 +119,7 @@ body a:hover {
   backdrop-filter: blur(10px);
 }
 nav > ul > li {
+  list-style: none;
   padding: 1em;
   text-align: right;
 }
@@ -232,7 +233,7 @@ nav > ul > li > a {
 }
 .product-cards > article > section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
@@ -240,10 +241,12 @@ nav > ul > li > a {
   font-size: var(--bodycopy-mob);
   font-family: var(--ff-body);
   font-weight: var(--fw-bold);
+  margin-bottom: 15px;
   color: var(--clr-primary-dark);
 }
 .product-cards > article > section > button {
   padding: 1em 2em;
+  margin-top: 15px;
 }
 
 /* ---------------------------- Best Meals Area Styling ---------------------------- */
@@ -350,6 +353,8 @@ footer {
 }
 .footer-lists * {
   margin-top: 0.4rem;
+  list-style: none;
+  padding-left: 0px;
 }
 .footer-lists a {
   text-decoration: none;
@@ -368,13 +373,17 @@ footer {
 }
 .footer-bottom ul {
   padding: 1em 2em;
+  padding-left: 0px !important;
   display: flex;
   flex-direction: row;
+  
   justify-content: center;
   align-items: center;
+  list-style: none;
 }
 .footer-bottom ul li {
   margin-right: 1em;
+  list-style: none;
 }
 .footer-bottom ul li:last-child {
   margin-left: auto;
