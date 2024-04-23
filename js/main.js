@@ -12,11 +12,11 @@ function toggleMenu() {
   if (currentSrc.includes("assets/icons/hamburger-icon.svg")) {
     newSrc = currentSrc.replace(
       "assets/icons/hamburger-icon.svg",
-      "assets/icons/close.svg"
+      "assets/icons/close.png"
     );
   } else {
     newSrc = currentSrc.replace(
-      "assets/icons/close.svg",
+      "assets/icons/close.png",
       "assets/icons/hamburger-icon.svg"
     );
   }

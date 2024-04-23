@@ -213,7 +213,6 @@ nav > ul > li > a {
 }
 .product-cards {
   display: flex;
-  justify-content: center; /* Center the items horizontally */
   align-items: start; /* Align items from the start of the flex container */
   gap: 1rem; /* Adds space between each card */
   padding: 1rem 0; /* Additional padding for aesthetics */
